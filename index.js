@@ -1,5 +1,5 @@
 function getFirstSelector(selector){
-  return $('selector');
+  return $('#app');
 }
 
 const nestedTarget = function() {
@@ -18,20 +18,6 @@ function deepestChild() {
     node = nextNode;
     nextNode = node.children[0];
   }
-}
-
-function deepestChild() {
-
-  let node = document.getElementById('grand-node');
-  let nextNode = node.children[0];
-
-  while (nextNode) {
-    node = nextNode
-    nextNode = node.children[0]
-    node = nextNode;
-    nextNode = node.children[0];
-  }
-
-  return node
   return node;
 }
+
