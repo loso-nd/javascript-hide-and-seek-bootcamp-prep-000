@@ -3,9 +3,9 @@ function getFirstSelector(selector){
 }
 
 const nestedTarget = function() {
-  return document.querySelector('#nested .target')
+  return document.querySelector('#nested .target');
 }
 
 const increasedRankBy = (n) => {
-  return parseInt(document.querySelector('.ranked-list'), 10)
+  return parseInt(document.querySelector('.ranked-list'), 10);
 }
