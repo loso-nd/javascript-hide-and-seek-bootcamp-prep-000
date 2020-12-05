@@ -1,5 +1,7 @@
 function getFirstSelector(selector){
-  return selector
+  return $('selector');
 }
 
-const nestedTarget = function() 
+const nestedTarget = function() {
+  return documentQu
+}
