@@ -6,3 +6,6 @@ const nestedTarget = function() {
   return document.querySelector('#nested .target')
 }
 
+const increasedRankBy (n) => {
+  
+}
